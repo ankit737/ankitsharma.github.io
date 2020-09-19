@@ -1,0 +1,245 @@
+body{
+     background-image: url(../img/dev2.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     width: 100%; 
+     } 
+h1{
+    color: #adff2f;
+    text-align: center;
+    font-size: 40px;
+    
+}
+h1:hover{
+    color: whitesmoke;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    color: indigo;
+    background-color: black;
+    width:70%;
+    height:70%;
+    margin-left: 20%;
+    padding: 10px;
+    font-family: cursive;
+    
+    /* border-radius: 20px;*/
+    border-bottom-left-radius:40px;
+    border-top-right-radius:40px;
+}
+p:hover{
+    color: whitesmoke;
+}
+
+#middle{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    border: 3px solid whitesmoke;
+    overflow: hidden;
+    float: left;
+    margin-left: 20%;
+
+}
+#slider{
+    width: 800px;
+    height: 400px;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    float: left;
+    
+}
+img{
+    float: left;
+}
+@keyframes slide{
+    0%{
+        background-image: url(../img/dev.png);
+        background-size: 50%;
+    }
+    50%{
+        background-image: url(../img/dev1.jpg);
+        background-size: 50%;
+    }
+    100%{
+        background-image: url(../img/dev.png);
+        background-size: 50%;
+    }
+}
+#wrap{
+    width:80%;
+    margin: 0px auto;
+}
+
+header{
+    float:left;
+    width: 80%;
+    background:-webkit-linear-gradient(right,orange,green);
+    background:-moz-linear-gradient(right,orange,green);
+    background:-o-linear-gradient(left,red,white);
+    position: fixed;
+    margin:auto;
+    
+}
+header h2{
+    color:crimson;
+    margin-left: 3%;
+    width: 30%;
+    float: left;
+    
+
+}
+header h2:hover{
+    color:whitesmoke;
+}
+nav{
+    float: right;
+    width: 40%;
+    margin-top: 2%;
+}
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 5%;
+
+}
+nav a{
+    color: blue;
+     text-decoration: none; 
+    font-size: 25px;
+}
+nav a:hover{
+    color: whitesmoke;
+}
+footer{
+    float: left;
+    width: 80%;
+  
+}
+
+footer h3{
+    float: left;
+    margin: 10%;
+
+}
+body{
+    margin: 0%;
+    float: left;
+} 
+#social{
+    float: left;
+    width: 100%;
+    margin-left:50%;
+   margin-top: 2px;
+   
+} 
+#social div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#social div.instagram{
+    background-image: url(../img/instagram.png);
+    float: left;
+}
+#social div.linkedin{
+    background-image: url(../img/linkedin.png);
+    float: left;
+}
+#social div.reddit{
+    background-image: url(../img/reddit.jpg);
+    float: left;
+}
+#social div.twitter{
+    background-image: url(../img/twitter.png);
+    float: left;
+}
+#social div.blogger{
+    background-image: url(../img/blog.png);
+    float: left;
+}
+#social div.github{
+    background-image: url(../img/github.png);
+    float: left;
+}
+#social div.instagram:hover{
+    background-image: url(../img/instagram.png);
+    background-size: 100% 100%;
+    background-color: pink; 
+}
+#social div.linkedin:hover{
+    
+    
+    background-image: url(../img/linkedin.png);
+    background-size: 100% 100%;
+    background-color: rgb(11, 11, 238);
+ }
+ #social div.reddit:hover{
+    
+    
+    background-image: url(../img/reddit.jpg);
+    background-size: 100% 100%;
+    background:orange;
+ }
+ #social div.twitter:hover{
+    
+    
+    background-image: url(../img/twitter.png);
+    background-size: 100% 100%;
+    background:lightblue;
+ }
+ #social div.blogger:hover{
+    
+    
+    background-image: url(../img/blog.png);
+    background-size: 100% 100%;
+    background:coral;
+ }
+ #social div.github:hover{
+    
+    
+    background-image: url(../img/github.png);
+    background-size: 100% 100%;
+    background:whitesmoke;
+ }
+ #part h4{
+     text-align: center;
+     font-family: cursive;
+     font-size: 200px;
+     
+ }
+ #part h5{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 80px;
+     margin-left: 20px;
+     
+ }
+ #part h6{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 80px ;
+     margin-left: 20px;
+
+ }
+ #part h7{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px ;
+    margin-left: 750px;
+ }
+ #part h5:hover{
+     color: blue;
+ }
+ #part h6:hover{
+    color: red;
+}
+#part h7:hover{
+    color: green;
+}
